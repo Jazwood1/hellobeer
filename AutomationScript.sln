@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{354F2DFE-114B-48FB-A4B8-1FB3F431948A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{3DBB42FD-CB1D-4DF6-99D2-42C326224EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{997D8890-0D74-46EA-8212-39449E9DFFE8}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{724CAE38-7527-434F-8620-AB1FE0F06A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{582BA962-867E-438B-A5E9-955F16377AD4}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{18406A39-5D93-4EE1-9CB2-ABA61DAA8C1C}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{35544C37-6D27-4292-973F-C9EAF9F6D2BF}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jazwood2", "Jazwood2", "{6B0B2CD3-A644-4A25-97B9-363973E6ECFE}"
+	ProjectSection(SolutionItems) = preProject
+		Jazwood2.xml = Jazwood2.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6C0919E5-0291-47E2-9961-657CAF6CBD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jazwood2_1", "Jazwood2_1\Jazwood2_1.csproj", "{8CE18EB8-2965-480C-A975-235BF2884ACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE18EB8-2965-480C-A975-235BF2884ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE18EB8-2965-480C-A975-235BF2884ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE18EB8-2965-480C-A975-235BF2884ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE18EB8-2965-480C-A975-235BF2884ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{582BA962-867E-438B-A5E9-955F16377AD4} = {724CAE38-7527-434F-8620-AB1FE0F06A52}
+		{35544C37-6D27-4292-973F-C9EAF9F6D2BF} = {354F2DFE-114B-48FB-A4B8-1FB3F431948A}
+		{6B0B2CD3-A644-4A25-97B9-363973E6ECFE} = {3DBB42FD-CB1D-4DF6-99D2-42C326224EE6}
+		{6C0919E5-0291-47E2-9961-657CAF6CBD39} = {6B0B2CD3-A644-4A25-97B9-363973E6ECFE}
+		{8CE18EB8-2965-480C-A975-235BF2884ACE} = {6C0919E5-0291-47E2-9961-657CAF6CBD39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E86CB1D-8058-4D0C-88BA-ED2FE35E6C79}
+	EndGlobalSection
+EndGlobal
